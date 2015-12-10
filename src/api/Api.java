@@ -208,7 +208,7 @@ public class Api {
         }
     }
 
-    @PUT
+    @PUT //PUT-request bruges til at opdatere noget:
     @Path("/games/join/")
     @Produces("application/json")
     public Response joinGame(String json) {
