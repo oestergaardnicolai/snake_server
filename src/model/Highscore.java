@@ -5,17 +5,18 @@ package model;
  */
 public class Highscore {
 
+    //Declare variables
     int no1;
     int no2;
     int no3;
     int no4;
     int no5;
 
+    //Creates constructor
     public Highscore(){
-
-
     }
 
+    //Creates get methods which returns the highscore values
     public int getNo1() {
         return no1;
     }

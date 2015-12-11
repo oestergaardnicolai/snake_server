@@ -302,6 +302,7 @@ public class Api {
         return new Gson().toJson(game);
     }
 
+
     @GET //"GET-request"
     @Path("/scores/")
     @Produces("application/json")
